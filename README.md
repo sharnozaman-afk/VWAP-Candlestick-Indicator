@@ -1,15 +1,15 @@
 # VWAP-Candlestick-Indicator
-Project Overview
+# Project Overview
 This project uses Python to calculate and visualize the Volume Weighted Average Price (VWAP) alongside candlestick charts. It combines Python 
 programming, financial market analysis, and data visualization to better understand how trading activity influences price behavior.
 
-Key Features
+# Key Features
 Calculates typical price using high, low, and closing prices
 Computes cumulative price-volume and total trading volume
 Calculates VWAP across multiple trading periods
 Visualizes candlestick charts with a VWAP overlay
 
-What I Learned
+# What I Learned
 Throughout building this project, I learned a lot more about VWAP and the market concepts connected to it. For instance, VWAP is the average traded price weighted by volume. It serves as a benchmark for institutions to evaluate whether their orders were executed at a favorable price. For a buying institution, getting executed above VWAP means paying a more expensive price relative to the average, while getting executed below VWAP means purchasing at a cheaper price.
 
 An important distinction is that price crossing VWAP does NOT necessarily mean you should immediately buy or sell. Instead, you would also look at order flow, volume, and delta. Is the price moving higher because there are a lot of aggressive buyers? Are sellers able to absorb that buying pressure? A crossover above or below VWAP simply tells you where price is trading relative to its volume-weighted average. It does not necessarily predict where price will move next.
